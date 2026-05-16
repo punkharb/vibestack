@@ -1,0 +1,24 @@
+{
+  "name": "claude-web-blueprint",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reusable full-stack starter: Next.js 15 + Tailwind + shadcn/ui + Express + Supabase.",
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "build": "pnpm -r run build",
+    "start": "pnpm -r --parallel run start",
+    "lint": "pnpm -r run lint",
+    "clean": "pnpm -r exec rimraf node_modules .next dist"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@10.18.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
+  }
+}
