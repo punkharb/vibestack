@@ -1,0 +1,14 @@
+* text=auto eol=lf
+
+# Binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.webp  binary
+*.avif  binary
+*.pdf   binary
+
+# Lockfile: large + auto-managed
+pnpm-lock.yaml -diff

@@ -17,7 +17,7 @@ license text is preserved at [`.claude/UPSTREAM-LICENSE`](.claude/UPSTREAM-LICEN
 | `skills/`   | `.claude/skills/`           |
 | `commands/` | `.claude/commands/`         |
 | `rules/`    | `.claude/rules/`            |
-| `.mcp.json` | `.mcp.json`                 |
+| `.mcp.json` | `.mcp.json.example`         |
 | `LICENSE`   | `.claude/UPSTREAM-LICENSE`  |
 
 The following upstream paths are **not** vendored:
@@ -46,7 +46,7 @@ cd /tmp/ecc-vendor && git fetch --depth 1 origin "$SHA" && git checkout "$SHA"
 # back in this repo:
 rm -rf .claude/agents .claude/skills .claude/commands .claude/rules
 cp -r /tmp/ecc-vendor/{agents,skills,commands,rules} .claude/
-cp /tmp/ecc-vendor/.mcp.json .mcp.json
+cp /tmp/ecc-vendor/.mcp.json .mcp.json.example
 cp /tmp/ecc-vendor/LICENSE .claude/UPSTREAM-LICENSE
 # update the SHA in this file, commit, then re-run /adapt
 ```
