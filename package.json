@@ -1,8 +1,8 @@
 {
-  "name": "claude-web-blueprint",
+  "name": "vibestack",
   "version": "0.1.0",
   "private": true,
-  "description": "Reusable full-stack starter: Next.js 15 + Tailwind + shadcn/ui + Express + Supabase.",
+  "description": "Reusable Next.js + Express + Supabase blueprint with a vendored Claude Code toolkit and /adapt prune workflow.",
   "scripts": {
     "dev": "pnpm -r --parallel run dev",
     "build": "pnpm -r run build",

@@ -1,10 +1,12 @@
-# claude-web-blueprint
+# vibestack
 
-Reusable full-stack starter. Clone, rename, build.
+[![ci](https://github.com/punkharb/vibestack/actions/workflows/ci.yml/badge.svg)](https://github.com/punkharb/vibestack/actions/workflows/ci.yml)
+
+Reusable full-stack web blueprint with a battle-tested Claude Code toolkit baked in. Clone, fill in `projectscope.md`, run `/adapt`, start building.
 
 **Stack:** Next.js 16 (App Router, TS) · Tailwind CSS 4 · shadcn/ui · Express + TS · Supabase (Auth + Postgres) · pnpm workspaces.
 
-**Bonus:** ships with a Claude Code bootstrap — one meta-skill (`/adapt`) that reads `projectscope.md` and rewrites `CLAUDE.md` + project-specific agents and skills to fit whatever you're building.
+**Claude Code:** ships with 60 agents, 230+ skills, and 75 commands vendored from [`affaan-m/everything-claude-code`](https://github.com/affaan-m/everything-claude-code) (MIT). `/adapt` prunes the ones that don't match your project and rebadges the survivors with your project name + domain.
 
 ## Layout
 
