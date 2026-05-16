@@ -29,6 +29,9 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 
+# claude code: opt-in MCP config (use .mcp.json.example as template)
+.mcp.json
+
 # misc
 *.tsbuildinfo
 coverage/
