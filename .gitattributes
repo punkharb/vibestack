@@ -12,3 +12,6 @@
 
 # Lockfile: large + auto-managed
 pnpm-lock.yaml -diff
+
+# Vendored Claude Code toolkit — keep it out of GitHub language stats
+.claude/** linguist-vendored
